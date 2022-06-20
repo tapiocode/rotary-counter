@@ -1,0 +1,35 @@
+/**
+ * Copyright (c) 2022 tapiocode
+ * https://github.com/tapiocode
+ * MIT License
+ */
+
+:root[theme="light"] {
+  --color-background: #d7d7d7;
+  --color-text: #252525;
+  --color-wheel-container: #777;
+  --color-wheel: #252525;
+  --color-wheel-accent: #484848;
+  --color-wheel-shadow: #131313;
+  --color-wheel-text: #fff;
+  --color-colon: #fff;
+}
+
+:root[theme="dark"] {
+  --color-background: #252525;
+  --color-text: #eaeaea;
+  --color-wheel-container: #313131;
+  --color-wheel: #eaeaea;
+  --color-wheel-accent: #a8a8a8;
+  --color-wheel-shadow: #828282;
+  --color-wheel-text: #000;
+  --color-colon: #eaeaea;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 100%;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
